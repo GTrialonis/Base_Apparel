@@ -1,0 +1,37 @@
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: white;
+  }
+}
+
+body,html {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  /* background: #F4F4F4; */
+  font-family: 'Josefin';
+  /* background-image: url("../images/bg-pattern-desktop.svg"); */
+  background-size: cover;
+}
+
+
+.text-color {
+  font-family: "Josefin Sans-300";
+  color: var(--desaturated-Red);
+  font-size: 2.5em;
+  letter-spacing: 0.3em;
+}
+
+/* .embed-responsive .card-img-top {
+  object-fit: cover;
+} */
